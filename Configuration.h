@@ -293,9 +293,10 @@
  // #define  DEFAULT_Kd 114
 
 // J-head IV-B @12v
-    #define  DEFAULT_Kp 25.58
-    #define  DEFAULT_Ki 1.63
-    #define  DEFAULT_Kd 78.25
+    #define  DEFAULT_1Kp 19.91
+	#define  DEFAULT_1Ki 1.33
+	#define  DEFAULT_1Kd 74.36
+	
   // MakerGear
   //#define  DEFAULT_Kp 7.0
   //#define  DEFAULT_Ki 0.1
@@ -342,10 +343,16 @@
 //#define  DEFAULT_bedKi .023
 //  #define  DEFAULT_bedKd 305.4
 
-  #define  DEFAULT_bedKp 121.86
-  #define  DEFAULT_bedKi 5.08
-  #define  DEFAULT_bedKd 730.72
 
+//old
+ // #define  DEFAULT_bedKp 121.86
+ // #define  DEFAULT_bedKi 5.08
+ // #define  DEFAULT_bedKd 730.72
+
+  
+  #define  DEFAULT_1Kp 114.71
+  #define  DEFAULT_1Ki 5.56
+  #define  DEFAULT_1Kd 592.00o
 
 
   //120V 250W silicone heater into 4mm borosilicate (MendelMax 1.5+)
