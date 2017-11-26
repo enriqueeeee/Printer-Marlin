@@ -3,8 +3,8 @@ start
 Printer is now online.
 echo:Marlin 1.1.0-RC7
 echo: Last Updated: 2016-07-31 12:00 | Author: (Erik, default config)
-Compiled: Sep  2 2017
-echo: Free Memory: 3656  PlannerBufferBytes: 1232
+Compiled: Nov 26 2017
+echo: Free Memory: 3648  PlannerBufferBytes: 1232
 echo:V24 stored settings retrieved (398 bytes)
 echo:Steps per unit:
 echo:  M92 X163.10 Y163.10 Z8056.39 E1218.00
