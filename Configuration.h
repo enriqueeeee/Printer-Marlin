@@ -784,7 +784,8 @@ const bool Z_MIN_PROBE_ENDSTOP_INVERTING = true; // set to true to invert the lo
 //
 //default backup
 // default settings
-#define DEFAULT_AXIS_STEPS_PER_UNIT   {160,160,8000,1320}  // default steps per unit for Ultimaker
+
+#define DEFAULT_AXIS_STEPS_PER_UNIT   {163.10,163.10,8056.39,1218}  // default steps per unit for Ultimaker
 #define DEFAULT_MAX_FEEDRATE          {150, 150, 5, 25}    // (mm/sec)
 //#define DEFAULT_MAX_ACCELERATION      {4000,4000,20,10000}    // X, Y, Z, E maximum start speed for accelerated moves. E default values are good for Skeinforge 40+, for older versions raise them a lot.
 #define DEFAULT_MAX_ACCELERATION      {4000,4000,5,10000}    // X, Y, Z, E maximum start speed for accelerated moves. E default values are good for Skeinforge 40+, for older versions raise them a lot.
@@ -913,7 +914,7 @@ const bool Z_MIN_PROBE_ENDSTOP_INVERTING = true; // set to true to invert the lo
 // Attention: This is an EXPERIMENTAL feature, in the future the G-code arguments
 // may change to add new functionality like different wipe patterns.
 //
-//#define NOZZLE_CLEAN_FEATURE
+#define NOZZLE_CLEAN_FEATURE
 
 #if ENABLED(NOZZLE_CLEAN_FEATURE)
   // Number of pattern repetitions

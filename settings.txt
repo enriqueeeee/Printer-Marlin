@@ -1,0 +1,33 @@
+Connecting...
+start
+Printer is now online.
+echo:Marlin 1.1.0-RC7
+echo: Last Updated: 2016-07-31 12:00 | Author: (Erik, default config)
+Compiled: Sep  2 2017
+echo: Free Memory: 3656  PlannerBufferBytes: 1232
+echo:V24 stored settings retrieved (398 bytes)
+echo:Steps per unit:
+echo:  M92 X163.10 Y163.10 Z8056.39 E1218.00
+echo:Maximum feedrates (mm/s):
+echo:  M203 X150.00 Y150.00 Z5.00 E25.00
+echo:Maximum Acceleration (mm/s2):
+echo:  M201 X4000 Y4000 Z5 E10000
+echo:Accelerations: P=printing, R=retract and T=travel
+echo:  M204 P3000.00 R3000.00 T1000.00
+echo:Advanced variables: S=Min feedrate (mm/s), T=Min travel feedrate (mm/s), B=minimum segment time (ms), X=maximum XY jerk (mm/s),  Z=maximum Z jerk (mm/s),  E=maximum E jerk (mm/s)
+echo:  M205 S0.00 T0.00 B20000 X20.00 Z0.40 E5.00
+echo:Home offset (mm)
+echo:  M206 X0.00 Y0.00 Z0.00
+echo:Material heatup parameters:
+echo:  M145 S0 H180 B70 F0
+echo:  M145 S1 H240 B110 F0
+echo:PID settings:
+echo:  M301 P25.58 I1.63 D78.25
+echo:  M304 P121.86 I5.08 D730.72
+echo:Filament settings: Disabled
+echo:  M200 D3.00
+echo:  M200 D0
+echo:Z-Probe Offset (mm):
+echo:  M851 Z-1.69
+echo:SD card ok
+echo:SD card ok
